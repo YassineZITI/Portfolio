@@ -1,0 +1,103 @@
+
+/* Google font poppins*/
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* global styles */
+@import url(./partials/global.css);
+
+
+/*  navbar styles  */
+.logo{
+    text-decoration:none ;
+    color: var(--primary-color2);
+    font-weight: 600;
+    font-size: 27px;
+    font-family: var(--poppins);
+}
+
+nav .navbar-collapse .navbar-nav .nav-link{
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: var(--poppins);
+}
+nav .navbar-collapse .navbar-nav .nav-link.active{
+    color: var(--primary-color2);
+}
+nav .navbar-collapse .navbar-nav .nav-link:hover{
+    color: var(--primary-color2);
+}
+
+
+/* ---------- */
+
+/*  banner styles  */
+
+.main-site .site-banner {
+    
+    background: url(../img/banner/home-banner2.png) no-repeat 0% 48%;
+    
+}
+
+.main-site .site-banner .site-title{
+    padding-left: 12%;
+} 
+.main-site .site-banner .site-title h3{
+    font-weight: 500;
+    padding-top: 30%;   
+}
+.main-site .site-banner .site-title h1{
+    font-size: 4rem;
+}
+.main-site .site-banner .site-title p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main-site .site-banner .banner-img>img{
+    padding: 7rem 2rem 0px 0px;
+    width: 30rem;
+}
+
+/* about styles*/
+
+.main-site .about-area{
+    padding: 3rem 6rem;
+}
+.main-site .about-area .about-title{
+    padding-left: 5%;
+}
+.main-site .about-area h2>span{
+    font: normal bold 40px/55px var(--poppins);
+    display: block;
+    letter-spacing: 15px;
+}
+
+/* services area */
+.main-site .services-area .container{
+    width: 75vw;
+}
+.main-site .services-area .service .card{
+    background: rgba(248, 251, 252, 0.973);
+    border:none;
+    padding: 1rem;
+    height: 330px;
+    width: 180px;
+}
+.main-site .services-area .service .card img{
+    padding: 16px;
+    max-width: 100px;
+    margin: 20px auto ;
+}
+.main-site .services-area .service .card:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* project area */
+
+.main-site .project-area .grid .img img:hover{
+    filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf)
+}

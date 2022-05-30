@@ -1,0 +1,50 @@
+
+/* Style all font awesome icons */
+.fab {
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fab:hover {
+    opacity: 0.7;
+  }
+  .fab:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook-f {
+    background: #3162ce;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* google */
+  .fa-google {
+    background: #EA4335;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    
+    color: white;
+  }
+ 
+ 
+  

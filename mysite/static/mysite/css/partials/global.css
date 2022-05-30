@@ -1,0 +1,71 @@
+
+
+/* global styles */
+
+.title-text{
+    font: normal bold 40px/62px var(--poppins);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.button{
+    font-family:var(--poppins) ;
+    font-weight: 500;
+    font-size: 20px;
+    padding:0.8rem 2.2rem;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    border-color: none;
+
+}
+.button.primary-button{
+    background:var(--gradient-color); 
+    background-clip:padding-box ;
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+}
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: border-box;
+    color: black;
+    border: 3px solid var(--primary-color);
+}
+.button.secondary-button{
+    border: 3px solid var(--primary-color);
+}
+.button.secondary-button:hover{
+    background:var(--gradient-color); 
+    background-clip:padding-box ;
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+}
+p.para{
+    font: normal 500 16px/25px var(--poppins);
+    color: var(--text-color);
+}
+.font-poppins{
+    font-family: var(--poppins);
+}
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline:0px !important;
+    box-shadow: none !important;
+    text-decoration: underline;
+    color:var(--primary-color) ;
+}
+.btn:hover{
+    color:var(--primary-color);
+}
+
+button.navbar-toggler{
+    outline:0px !important;
+    box-shadow: none !important;
+    
+}

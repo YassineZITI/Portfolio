@@ -1,0 +1,341 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap css file -->
+        <link href="{% static 'mysite/css/bootstrap.min.css' %}" rel="stylesheet" >
+        <!-- font awsome css file -->
+        <link rel="stylesheet" href="{% static 'mysite/css/all.min.css'%}">
+        <!-- custom css file -->
+        <link rel="stylesheet" href="{% static 'mysite/css/style.css'%}">
+        <link rel="stylesheet" href="{% static 'mysite/css/styleicons.css'%}" >
+        <title>portfolio</title>
+    </head>
+<body >
+    <!-- ================================= navigation section start =============================== -->
+  <header class="header_area">
+    <div class="main-menu">
+      <nav class="fixed-top navbar navbar-expand-lg  bg-white shadow-sm ">
+        <div class="container-lg ">
+          <a class="logo" href="#home">Yassine ZITI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">   
+                <i class="fas fa-bars" style="color: #854fee;font-size:28px;"></i>
+            </span>
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active px-3" href="#home">Home</a>
+              <a class="nav-link px-3" href="#about">About</a>
+              <a class="nav-link px-3" href="#services">services</a>
+              <a class="nav-link px-3" href="#portfolio">Portfolio</a>
+              <a class="nav-link px-3" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+    
+
+    <!-- ================================= navigation section end =============================== -->
+
+  <!-- ================================= Main area start =============================== -->
+
+  <main class="main-site">
+      <!-- ======================= banner area start ====================== -->
+      <section id="home" class="site-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 site-title">
+              
+              <h3 class="title-text">Hey</h3>
+              <h1 class="title-text text-uppercase">I AM YASSINE</h1>
+              <p class="title-text text-uppercase">JUNIOR DATA SCIENTIST</p>
+              <div class="site-buttons">
+                <div class="d-flex flex-wrap">
+                  <button type="button" class="btn button primary-button text-uppercase me-2">HIRE ME</button>
+                  <button type="button" class="btn button secondary-button text-uppercase">GET CV</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 banner-img">
+              <img src="{% static 'mysite/img/banner/profile.png'%}" class="img-fluid rounded-circle" alt="banner-img">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======================= banner area end ====================== -->
+      <!-- ======================= about area start ====================== -->
+      <section id="about" class="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="about-image">
+                <img src="{% static 'mysite/img/about-us.png'%}" class="image-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 about-title">
+              <h2 class="text-uppercase pt-4">
+                <span>let me</span>
+                <span>introduce</span>
+                <span>myself</span>
+              </h2>
+              <div class="paragraph py-4 w-75">
+                <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis veniam unde aut fuga sit quas ad ipsum velit, delectus ea?</p>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti cum sint alias sed distinctio? Dignissimos omnis architecto necessitatibus saepe doloremque repudiandae odio, reiciendis pariatur voluptatibus blanditiis ad unde dolore.</p>
+              </div>
+              <button type="button" class="btn button primary-button text-uppercase">get cv</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======================= about area end ====================== -->
+      <!-- ======================= services area start ====================== -->
+      <section id="services" class="services-area py-4">
+        <div class="container-lg">
+          <div class="row  text-center py-5">
+            <div class="col-lg-12">
+              <h1 class="title-text text-uppercase">My offers</h1>
+              <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo voluptatum quo tempore.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12 ">
+                <div class="service">
+                  <div class="card text-center " style="width: 15rem;">
+                    <img src="{% static 'mysite/img/services/s2.png'%}"  alt="s2">
+                    <div class="">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="service">
+                  <div class="card text-center " style="width: 15rem;">
+                    <img src="{% static 'mysite/img/services/s3.png'%}"  alt="s3">
+                    <div class="">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="service">
+                  <div class="card  text-center " style="width: 15rem;">
+                    <img src="{% static 'mysite/img/services/s4.png'%}"  alt="s4">
+                    <div class="">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="service">
+                  <div class="card text-center " style="width: 15rem;">
+                    <img src="{% static 'mysite/img/services/s1.png'%}"  alt="s1">
+                    <div class="">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======================= services area end ====================== -->
+      <!-- ======================= project area start ====================== -->
+      <section id="portfolio" class="project-area py-5">
+        <div class="container p-3">
+          <div class="row  project-title py-3">
+            <h1 class=" text-uppercase">Recently Done Projects</h1>
+            <h1 class=" text-uppercase">Quality Work</h1>
+          </div>
+          <div class="btn-group filter py-3" role="group" aria-label="Basic example">
+            <button type="button" class="fs-5 font-poppins btn fw-500" data-filter="*">All</button>
+            <button type="button" class="fs-5 font-poppins btn fw-500" data-filter=".popular">Popular</button>
+            <button type="button" class="fs-5 font-poppins btn fw-500" data-filter=".latest">Latest</button>
+            <button type="button" class="fs-5 font-poppins btn fw-500" data-filter=".following">Following</button>
+            <button type="button" class="fs-5 font-poppins btn fw-500" data-filter=".upcoming">Upcoming</button>
+          </div>
+          <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item latest">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p1.jpg'%}"  alt="portfolio-1">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Latest,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item popular">
+              <div class="project ">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p2.jpg'%}"  alt="portfolio-2">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item popular">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p3.jpg'%}"  alt="portfolio-3">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div> 
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item upcoming">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p4.jpg'%}"  alt="portfolio-4">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item following">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p5.jpg'%}"  alt="portfolio-5">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item latest">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p6.jpg'%}"  alt="portfolio-6">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>         
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item popular">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p7.jpg'%}"  alt="portfolio-7">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item latest">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p8.jpg'%}"  alt="portfolio-8">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 grid-item following">
+              <div class="project">
+                <div class="img">
+                  <img src="{% static 'mysite/img/portfolio/p9.jpg'%}"  alt="portfolio-9">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Card title</h4>
+                  <span class="text-secondary">Popular,Portfolio</span>
+                  
+                </div>
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </section>
+      <!-- ======================= project area end ====================== -->
+      <!-- ======================= subscribe area start ====================== -->
+      <section class="contact my-5" id="contact">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">Contact Me</h2>
+              </div>
+            </div>
+         </div>
+         <div class="row">
+           <div class="col-md-6 mx-auto">
+             <form action="">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Yassine Ziti">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Text Me</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+              <button type="button" class="btn button primary-button text-uppercase">Send Message</button>
+             </form>
+           </div>
+         </div>
+        </div>
+      </section>
+      <!-- ======================= subscribe area end ====================== -->
+
+  </main>
+      
+  <!-- ================================= Main area end =============================== -->
+
+
+
+
+    
+<!-- jquery js file -->
+<script src="{% static 'mysite/js/jquery.3.6.0.js'%}"></script>
+<!-- bootstrap js file -->
+<script src="{% static 'mysite/js/bootstrap.bundle.min.js'%}" ></script>
+<!-- isotope js file -->
+<script src="{% static 'mysite/js/isotope.min.js'%}"></script>
+<!-- main js file -->
+<script src="{% static 'mysite/js/main.js'%}"></script>
+</body>
+</html>
